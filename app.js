@@ -51,10 +51,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     resetPhoneNumber(phoneNumber1, phoneNumber2, phoneNumber3);
 
-    for(let j=0; j<numberOfInputs; j++) {
+    for(let i=0; i<numberOfInputs; i++) {
         setInterval(()=> {
-            radioInputs[j].style.setProperty("--width", Math.random() * 265+ 'px');
-            radioInputs[j].style.setProperty("--height", Math.random() * 265+ 'px');
+            radioInputs[i].style.setProperty("--width", Math.random() * 265+ 'px');
+            radioInputs[i].style.setProperty("--height", Math.random() * 265+ 'px');
         },Math.random()*300+700);
     }
 
